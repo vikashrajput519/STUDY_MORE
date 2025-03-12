@@ -1,0 +1,10 @@
+<h1>Hello from Server component</h1>
+
+<input type="text" [(ngModel)]="serverName" />
+<P>{{ serverName }}</P>
+
+<button class="btn btn-primary" (click)="onClickCreateServer()">
+  Create Server</button
+><br />
+
+<h4>{{ createdServerName }}</h4>
